@@ -1,5 +1,5 @@
 # Progressive Web App ```soundclip```
-A progressive web app for all kinds of songs and podcasts. Information such as the artist, album or lyrics are displayed for each song/podcast. There is also the option of playing the respective track immediately in the app. In addition, functions such as login, favourites or comments are available.The entire app is responsive and can be viewed on any available devices.
+A progressive web app with headless CMS for all kinds of songs and podcasts. Information such as the artist, album or lyrics are displayed for each song/podcast. There is also the option of playing the respective track immediately in the app. In addition, functions such as login, favourites or comments are available.The entire app is responsive and can be viewed on any available devices.
 
 ## 1 Usage
 ### 1.1 Installation
