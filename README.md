@@ -41,9 +41,10 @@ Then navigate to http://localhost:8080/_api and enter the connection data for th
 
 After continuing on to next, information about wordpress itself must be entered. This includes the user name and a password for logging into the admin area. The installation is then complete.
 
-...
+### 1.5 Wordpress settings
+Plugins, Custom Fields, Categories, ...
 
-### 1.5 Launch the app
+### 1.x Launch the app
 To start the app in the browser, we have to navigate to the _app folder. When accessing via localhost, this is done via localhost:8080/project/_app. If you are using a webhost, this is done via www.project.com/_app. After the url has been called, the app should be displayed with the respective content from wordpress.
 
 ## 2 Administration corner
