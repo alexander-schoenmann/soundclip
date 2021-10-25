@@ -17,10 +17,10 @@ Navigate to https://de.wordpress.org/download/releases/ and download the latest 
 It is possible to run the app via localhost as well as via webhosting.
 
 #### localhost
-If you want to run the app via localhost, I recommend programmes like Xampp (Win, Linux) or Mamp (MacOS). After you have downloaded the corresponding programme, you have to create a project folder (e.g. project) and copy the two folders _app and _api into it.
+If you want to run the app via localhost, I recommend programmes like Xampp (Win, Linux) or Mamp (MacOS). After you have downloaded the corresponding programme, you have to create a project folder (e.g. project) and copy the two folders "_app" and "_api" into it.
 
 #### webhosting
-To make your app permanently accessible, we recommend using a web host. After you have received the access data from your hosting provider, you can connect to your web server via ftp. Then navigate to the folder public_html and copy the two folders _app and _api into it.
+To make your app permanently accessible, we recommend using a web host. After you have received the access data from your hosting provider, you can connect to your web server via ftp. Then navigate to the folder public_html and copy the two folders "_app" and "_api" into it.
 
 ### 1.3 Database
 In any case, a database is also needed for the app. In this case a mysql database.
@@ -45,7 +45,7 @@ After continuing on to next, information about wordpress itself must be entered.
 Keep going with settings like Plugins, Custom Fields, Categories, ...
 
 ### 1.6 Launch the app
-To start the app in the browser, you have to navigate to the _app folder. When accessing via localhost, this is done via localhost:8080/project/_app. If you are using a webhost, this is done via www.project.com/_app. After the url has been called, the app should be displayed with the respective content from wordpress.
+To start the app in the browser, you have to navigate to the "_app" folder. When accessing via localhost, this is done via localhost:8080/project/_app. If you are using a webhost, this is done via www.project.com/_app. After the url has been called, the app should be displayed with the respective content from wordpress.
 
 ## 2 Administration corner
 ### 2.1 Contribution
