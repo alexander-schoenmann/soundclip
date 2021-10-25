@@ -17,7 +17,7 @@ Navigate to https://de.wordpress.org/download/releases/ and download the latest 
 It is possible to run the app via localhost as well as via webhosting.
 
 #### localhost
-If you want to run the app via localhost, I recommend programmes like Xampp (Win, Linux) or Mamp (MacOS). After you have downloaded the corresponding programme, you must create a project folder (e.g. project) and copy the two folders _app and _api into it.
+If you want to run the app via localhost, I recommend programmes like Xampp (Win, Linux) or Mamp (MacOS). After you have downloaded the corresponding programme, you have to create a project folder (e.g. project) and copy the two folders _app and _api into it.
 
 #### webhosting
 To make your app permanently accessible, we recommend using a web host. After you have received the access data from your hosting provider, you can connect to your web server via ftp. Then navigate to the folder public_html and copy the two folders _app and _api into it.
