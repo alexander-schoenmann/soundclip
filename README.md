@@ -14,30 +14,13 @@ Download the project from the master branch and save the zip file on your local 
 Navigate to https://de.wordpress.org/download/releases/ and download the latest version of wordpress as a zip file. Originally this app was developed with version 5.7.1. Open the zip file and navigate to the order "wordpress". All files contained in it can now be unpacked into the folder "_api".
 
 ### 1.2 Server
-It is possible to run the app via localhost as well as via webhosting.
-
-#### localhost
-If you want to run the app via localhost, I recommend programmes like Xampp (Win, Linux) or Mamp (MacOS). After you have downloaded the corresponding programme, you have to create a project folder (e.g. project) and copy the two folders "_app" and "_api" into it.
-
-#### webhosting
-To make your app permanently accessible, we recommend using a web host. After you have received the access data from your hosting provider, you can connect to your web server via ftp. Then navigate to the folder public_html and copy the two folders "_app" and "_api" into it.
+Since progressive web apps do not work without an ssh certificate, the use of a webhost is recommended. It should be possible to install an ssh certificate there. In addition, the app is permanently accessible through a webhost. After you have received the access data from your hosting provider, you can connect to your web server via ftp. Then navigate to the folder public_html and copy the two folders "_app" and "_api" into it.
 
 ### 1.3 Database
-In any case, a database is also needed for the app. In this case a mysql database.
-
-#### localhost
-Navigate to http://localhost:8080/phpmyadmin in your browser and create a new database. The encoding used is utf8mb4_general_ci. Then you need to create a user who has full rights to the database. Enter the necessary data and select localhost (without port) as host. 
-
-#### webhosting
-Open the web interface of your hosting provider and create a mysql database. Enter the corresponding data such as database name, login and password.
+In any case, a database is also needed for the app. Open the web interface of your hosting provider and create a mysql database. Enter the corresponding data such as database name, login and password.
 
 ### 1.4 Wordpress installation
-
-#### localhost
-Then you can go to http://localhost:8080/_api. Here you have to enter the data for the database connection. Enter localhost as the host (without port). The table prefix can be retained.
-
-#### webhosting
-Then navigate to http://localhost:8080/_api and enter the connection data for the database. Enter the server address of the web server as the host. The table prefix can be retained.
+Then navigate to https://project.com/_api and enter the connection data for the database. Enter the server address of the web server as the host. The table prefix can be retained.
 
 After continuing on to next, information about wordpress itself must be entered. This includes the user name and a password for logging into the admin area. The installation is then complete.
 
@@ -45,7 +28,7 @@ After continuing on to next, information about wordpress itself must be entered.
 Keep going with settings like Plugins, Custom Fields, Categories, ...
 
 ### 1.6 Launch the app
-To start the app in the browser, you have to navigate to the "_app" folder. When accessing via localhost, this is done via localhost:8080/project/_app. If you are using a webhost, this is done via www.project.com/_app. After the url has been called, the app should be displayed with the respective content from wordpress.
+To start the app in the browser, you have to navigate to the "_app" folder. This is done via www.project.com/_app. After the url has been called, the app should be displayed with the respective content from wordpress.
 
 ## 2 Administration corner
 ### 2.1 Contribution
