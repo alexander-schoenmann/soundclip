@@ -25,7 +25,7 @@ Then navigate to https://project.com/_api and enter the connection data for the 
 After continuing on to next, information about wordpress itself must be entered. This includes the user name and a password for logging into the admin area. The installation is then complete.
 
 ### 1.5 Wordpress settings
-Keep going with settings like Plugins, Custom Fields, Categories,...
+Keep going with settings like Plugins, Custom Fields, Categories, ...
 
 ### 1.6 Launch the app
 To start the app in the browser, you have to navigate to the "_app" folder. This is done via www.project.com/_app. After the url has been called, the app should be displayed with the respective content from wordpress.
